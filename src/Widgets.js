@@ -21,12 +21,24 @@ const Widgets = () => {
         <h2>Linked News</h2>
         <InfoIcon />
       </div>
-      {newsArticle("House of Rowjay")}
-      {newsArticle("Working with React-Redux")}
-      {newsArticle("50 way to stay healthy in the New Year")}
-      {newsArticle("The complete family plan for healthy living")}
-      {newsArticle("How to avoid burnout this year")}
-      {newsArticle("Stay in line with new year resolution")}
+      {newsArticle("Real Estate surge in the West", "Real Estate - 500 reader")}
+      {newsArticle("Working with React-Redux", "Programming - 1500 reader")}
+      {newsArticle(
+        "50 way to stay healthy in the New Year",
+        "Health News - 5200 reader"
+      )}
+      {newsArticle(
+        "The complete family plan for healthy living",
+        "Health News - 2300 reader"
+      )}
+      {newsArticle(
+        "How to avoid burnout this year",
+        "Health News - 2400 reader"
+      )}
+      {newsArticle(
+        "Stay in line with new year resolution",
+        "Life Style - 2700 reader"
+      )}
     </div>
   );
 };
